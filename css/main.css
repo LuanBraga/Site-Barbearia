@@ -10,18 +10,19 @@ body {
 
 #titulo {
     text-transform: uppercase;
-    margin-right: 0rem;
-    margin-left: 0rem;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
 }
 
 .logo{
     width: 5%;
     height: auto;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2.5%;
 }
 
 .rotulo{
-    max-width: 80%;
+    max-width: 75%;
 }
 
 /*seção 1*/
