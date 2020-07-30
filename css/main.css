@@ -10,6 +10,18 @@ body {
 
 #titulo {
     text-transform: uppercase;
+    margin-right: 0rem;
+    margin-left: 0rem;
+}
+
+.logo{
+    width: 5%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.rotulo{
+    max-width: 80%;
 }
 
 /*seção 1*/
@@ -167,8 +179,10 @@ body {
     background-repeat: no-repeat;
 }
 
-.logo{
-    width: 5%;
-    height: auto;
+@media screen and (max-width: 339px){
+
+    .logo{
+        display: none;
+    }
 }
 
